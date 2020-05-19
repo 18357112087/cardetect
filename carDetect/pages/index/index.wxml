@@ -1,0 +1,9 @@
+<view>
+<image src="{{actorPicture}}" bindtap="getImage"></image>
+</view>
+<block wx:for="{{cars}}" wx:key="{{index}}">
+<text>车型：{{item.name}}</text>
+<text>年份:{{item.year}}</text>
+<text>置信度：{{item.score}}</text>
+<text>当前售价:{{item.score}}</text>
+</block>
